@@ -7,7 +7,7 @@ RUN bundle config mirror.https://rubygems.org https://gems.ruby-china.org
 
 RUN mkdir -p /var/lib/slate
 
-COPY * /var/lib/slate
+COPY * /var/lib/slate/
 
 RUN cd /var/lib/slate
 
