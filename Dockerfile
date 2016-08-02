@@ -9,6 +9,6 @@ RUN mkdir -p /var/lib/slate
 
 COPY * /var/lib/slate/
 
-RUN cd /var/lib/slate
+WORKDIR /var/lib/slate
 
 RUN bundle install
