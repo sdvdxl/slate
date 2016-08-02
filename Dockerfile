@@ -11,6 +11,4 @@ COPY * /var/lib/slate/
 
 RUN cd /var/lib/slate
 
-RUN chmod +x serve.sh
-
 RUN bundle install
